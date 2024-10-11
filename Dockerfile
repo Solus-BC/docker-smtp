@@ -1,6 +1,4 @@
-FROM debian:buster
-
-MAINTAINER Oluwaseun Obajobi "oluwaseun.obajobi@namshi.com"
+FROM ubuntu:24.10
 
 RUN apt-get update && \
     apt-get install -y exim4-daemon-light && \
